@@ -5,6 +5,7 @@ body {
 }
 
 h1 {
+    color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -25,8 +26,12 @@ header {
     font-size: 15px;
 }
 
-.About {
+#name {
+    color: #ffffff;
+}
 
+.About {
+    
 }
 
 .Portfolio {
@@ -34,12 +39,14 @@ header {
 }
 
 .Contact {
-
+    
 }
 
 .main {
     background: #ffffff;
     border-color: #dddddd;
+    width: 960px;
+    margin: 20px auto;
 }
 
 #profile {
