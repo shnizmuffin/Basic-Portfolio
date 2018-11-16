@@ -1,57 +1,17 @@
+h1 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 body {
     background-image: url(../images/what-the-hex.png);
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
 }
 
-h1 {
-    color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
 header {
     background: #ffffff;
     border-color: #cccccc;
-}
-
-.links {
-    
-}
-
-.JoeZufelt {
-    background: #4aaaa5;
-    color: #fff;
-    padding: 10px;
-    width: 160px;
-    font-size: 15px;
-}
-
-#name {
-    color: #ffffff;
-}
-
-.About {
-    
-}
-
-.Portfolio {
-
-}
-
-.Contact {
-    
-}
-
-.main {
-    background: #ffffff;
-    border-color: #dddddd;
-    width: 960px;
-    margin: 20px auto;
-}
-
-#profile {
-    height: 150px;
-    weight: 150px;
 }
 
 footer {
@@ -61,3 +21,36 @@ footer {
     padding-top: 20px;
     border-top: solid 5px #4aaaa5;
 }
+
+.nav {}
+.nav-links {}
+
+.logo {
+    background: #4aaaa5;
+    color: #fff;
+    padding: 10px;
+    width: 160px;
+    font-size: 15px;
+}
+
+.name {
+    color: #ffffff;
+}
+
+.about {}
+.portfolio {}
+.contact {}
+
+.main {
+    background: #ffffff;
+    border-color: #dddddd;
+    width: 98vw;
+    max-width: 960px;
+    margin: 20px auto;
+}
+
+.profile {
+    height: 150px;
+    width: 150px;
+}
+
